@@ -461,7 +461,7 @@ a.sb-contact-link{
         margin:auto;
     }  
     .navbar-brand{
-        font-size:1.5rem;
+        font-size:20px;
         font-weight:300;
         text-transform: uppercase;
     }
@@ -492,8 +492,26 @@ a.sb-contact-link{
   @media only screen and (max-width: 768px) and (orientation : portrait) {
     /* PORTRAIT: (some of them might need to be broken out into '360px') */
 
+    .about-container{
+        margin:1rem;
+    }
+
+    .blog {
+        padding-right: 1rem;
+       
+    }
+
+    .blog-wrapper {
+        margin: 1rem;
+    }
+
+    .blog-img {
+        width: 90%;
+        height: auto;
+    }
+
     .title{
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin:auto;
     }  
 
@@ -544,4 +562,16 @@ a.sb-contact-link{
     .product-price{
         font-size:15px;
     }
+
+    .sidebar-container {
+        margin-top: 2rem;
+        margin-right: 2rem;
   }
+  .form-control {
+    width: 90%;
+}
+.gallery-container {
+    margin: 2rem;
+}
+
+}
